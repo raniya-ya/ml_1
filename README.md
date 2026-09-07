@@ -27,19 +27,22 @@
 
 Результаты MAE
 
-    model	            train	    test
-0	linear_regression	781.550473	786.383982
-1	decision_tree	    753.675997	756.114142
-2	naive_mean	        1134.361473	1130.888160
-3	naive_median	    1082.220859	1078.672733
+| model | train | test |
+|-------|-------|------|
+| linear_regression | 781.55 | 786.38 |
+| decision_tree | 753.68 | 756.11 |
+| naive_mean | 1134.36 | 1130.89 |
+| naive_median | 1082.22 | 1078.67 |
+
 
 Результаты RMSE 
 
-    model	            train	    test
-0	linear_regression	1115.809281	1354.450530
-1	decision_tree	    1070.598967	1072.058527
-2	naive_mean	        1585.609099	1573.238184
-3	naive_median	    1631.719953	1617.915709
+| model | train | test |
+|-------|-------|------|
+| linear_regression | 1115.81 | 1354.45 |
+| decision_tree | 1070.60 | 1072.06 |
+| naive_mean | 1585.61 | 1573.24 |
+| naive_median | 1631.72 | 1617.92 |
 
 **Вывод:** Дерево решений показало самую низкую ошибку и минимальную разницу между train и test, что говорит об отсутствии переобучения.
 
