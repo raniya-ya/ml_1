@@ -49,6 +49,6 @@
 ## Как запустить проект
 
 1. **Скачай данные с Kaggle** (https://www.kaggle.com/competitions/two-sigma-connect-rental-listing-inquiries/data?select=test.json.zip).
-2. Помести файлы `train.json` и `test.json` в папку "data/" в корне проекта.
+2. Создай локальную папку "data/" в корне проекта и положи туда скачанные файлы.
 
 
